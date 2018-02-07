@@ -1,0 +1,6 @@
+*.orig
+.settings
+.idea
+.classpath
+*.log
+.metadata
