@@ -25,6 +25,8 @@ public class EmployeeModel implements Serializable{
 	 */
 	private Date dob;
 	
+	private Integer empId;
+	
 	public String getName() {
 		return name;
 	}
@@ -42,6 +44,12 @@ public class EmployeeModel implements Serializable{
 	}
 	public void setDob(Date dob) {
 		this.dob = dob;
+	}
+	public Integer getEmpId() {
+		return empId;
+	}
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
 	}
 	
 
