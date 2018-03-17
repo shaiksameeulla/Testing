@@ -6,7 +6,7 @@ import java.util.Date;
 import org.springframework.stereotype.Component;
 
 /**
- *  This is Emp Bean for spring
+ *  This is Emp Bean for spring controller
  * @author mohammes
  *
  */
@@ -18,20 +18,17 @@ public class EmployeeModel implements Serializable{
 	 */
 	private static final long serialVersionUID = 4235588409979331384L;
 	
-	/**
-	 * name
-	 */
+	
 	private String name;
 	
-	/**
-	 * title
-	 */
 	private String title;
 	
 	/**
 	 * dob
 	 */
 	private Date dob;
+	
+	private Integer empId;
 	
 	public String getName() {
 		return name;
@@ -45,19 +42,17 @@ public class EmployeeModel implements Serializable{
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	/**
-	 * 
-	 * @return
-	 */
 	public Date getDob() {
 		return dob;
 	}
-	/**
-	 * 
-	 * @param dob
-	 */
 	public void setDob(Date dob) {
 		this.dob = dob;
+	}
+	public Integer getEmpId() {
+		return empId;
+	}
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
 	}
 	
 
