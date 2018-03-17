@@ -3,11 +3,14 @@ package com.example.demo.model;
 import java.io.Serializable;
 import java.util.Date;
 
+import org.springframework.stereotype.Component;
+
 /**
  *  This is Employee Model
  * @author mohammes
  *
  */
+@Component
 public class EmployeeModel implements Serializable{
 	
 	/**
