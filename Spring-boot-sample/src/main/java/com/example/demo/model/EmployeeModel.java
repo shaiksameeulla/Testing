@@ -45,6 +45,10 @@ public class EmployeeModel implements Serializable{
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	public Date getDob() {
 		return dob;
 	}
