@@ -3,6 +3,11 @@ package com.example.demo.model;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * 
+ * @author mohammes
+ *
+ */
 public class EmployeeModel implements Serializable{
 	
 	/**
@@ -10,14 +15,9 @@ public class EmployeeModel implements Serializable{
 	 */
 	private static final long serialVersionUID = 4235588409979331384L;
 	
-	/**
-	 * name
-	 */
+	
 	private String name;
 	
-	/**
-	 * title
-	 */
 	private String title;
 	
 	/**
