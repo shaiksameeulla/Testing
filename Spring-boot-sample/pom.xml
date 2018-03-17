@@ -10,10 +10,6 @@
 
 	<name>Spring-boot-sample</name>
 	<description>Demo project for Spring Boot2 with Jacoco plugin</description>
-<<<<<<< Upstream, based on branch 'master' of git@github.com:samiDeveloper/Testing-1.git
-=======
-	
->>>>>>> ff74c82 commit to local
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
