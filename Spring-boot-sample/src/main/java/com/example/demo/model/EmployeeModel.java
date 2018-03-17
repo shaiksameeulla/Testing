@@ -19,6 +19,10 @@ public class EmployeeModel implements Serializable{
 	 * title
 	 */
 	private String title;
+	
+	/**
+	 * dob
+	 */
 	private Date dob;
 	
 	public String getName() {
