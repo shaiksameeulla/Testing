@@ -9,7 +9,15 @@ public class EmployeeModel implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 4235588409979331384L;
+	
+	/**
+	 * name
+	 */
 	private String name;
+	
+	/**
+	 * title
+	 */
 	private String title;
 	private Date dob;
 	
