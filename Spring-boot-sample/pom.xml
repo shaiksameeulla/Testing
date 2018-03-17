@@ -10,7 +10,6 @@
 
 	<name>Spring-boot-sample</name>
 	<description>Demo project for Spring Boot2 with Jacoco plugin</description>
-	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
