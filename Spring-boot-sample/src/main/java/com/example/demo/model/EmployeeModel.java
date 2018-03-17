@@ -6,7 +6,7 @@ import java.util.Date;
 import org.springframework.stereotype.Component;
 
 /**
- *  This is Employee Model for spring
+ *  This is Emp Bean for spring
  * @author mohammes
  *
  */
