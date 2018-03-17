@@ -2,6 +2,11 @@ package com.example.demo.model;
 
 import java.io.Serializable;
 
+/**
+ *  This is Employee Model
+ * @author mohammes
+ *
+ */
 public class EmployeeModel implements Serializable{
 	
 	/**
