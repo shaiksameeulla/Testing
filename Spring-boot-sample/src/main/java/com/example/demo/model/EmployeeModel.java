@@ -48,6 +48,10 @@ public class EmployeeModel implements Serializable{
 	public Date getDob() {
 		return dob;
 	}
+	/**
+	 * 
+	 * @param dob
+	 */
 	public void setDob(Date dob) {
 		this.dob = dob;
 	}
